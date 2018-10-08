@@ -1,0 +1,219 @@
+@import './../../styles/core/colors';
+@import './../../styles/core/devices';
+@import './../../styles/core/fonts';
+
+:export {
+  themePrimaryColor: $theme-primary-color;
+  lightThemeFont: $light-theme-font;
+  normalThemeFont: $normal-theme-font;
+  minDesktopWidth: $min-desktop-width;
+  maxTabletWidth: $max-tablet-width;
+}
+
+.Logo,
+.LogoMobileTopHeader {
+  fill: #839eb6;
+  width: 100px;
+}
+
+.LogoMobileTopHeader {
+  margin: 20px;
+}
+
+.LogoMobileSidePanel {
+  fill: white;
+  width: 100px;
+  margin: 120px 30px 0;
+  width: 130px;
+}
+
+.MobileMenuLogoWrapper {
+  background-color: $theme-primary-color;
+  background: url('./../../assets/images/header-background.jpg');
+}
+
+.MobileSubTitle {
+  padding: 10px 30px 20px;
+  color: white;
+}
+
+.DesktopContainer,
+.MobileContainer {
+  background-color: white;
+  width: 100%;
+  height: 68px;
+  position: fixed;
+  top: 0;
+}
+
+.MobileContainer {
+  z-index: 900;
+}
+
+.LeftPanel {
+  float: left;
+}
+
+.RightPanel {
+  float: right;
+  font-size: 10px;
+
+  div {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .SignUpButton {
+    background-color: $theme-primary-color;
+    padding: 25px 40px;
+    color: #fff;
+  }
+
+  .LogInButton {
+    padding: 25px 40px;
+    border-left: 1px solid #eee;
+  }
+
+  .CurrencyList,
+  .LanguageList {
+    border: 1px solid #eee;
+    padding: 15px 25px;
+    margin-right: 10px;
+  }
+}
+
+.MobileMenuSelectionList {
+  padding: 15px;
+  height: 50px;
+  width: 94%;
+  clear: both;
+  border-bottom: 1px solid #eee;
+}
+
+.MobileMenuSelectionListLabel {
+  display: block;
+  float: left;
+}
+
+.MobileMenuSelectionListValue {
+  display: block;
+  float: right;
+  color: $theme-primary-color;
+}
+
+.MobileMenuRegisterButton {
+  display: inline-block !important;
+  padding: 10px 0;
+  width: 50%;
+  text-align: center;
+  background-color: #5c9c96;
+  border-bottom: 1px solid #eee;
+  color: #eee;
+}
+
+.MobileMenuLoginButton {
+  display: inline-block !important;
+  padding: 10px 20px 10px 10px;
+  width: 50%;
+  text-align: center;
+  background-color: #616161;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  color: #eee;
+}
+
+/* Position and sizing of burger button */
+:global .bm-burger-button {
+  position: fixed;
+  width: 28px;
+  height: 22px;
+  right: 25px;
+  top: 26px;
+  z-index: 900 !important;
+}
+
+/* Color/shape of burger icon bars */
+:global .bm-burger-bars {
+  background: #d2d2d2;
+}
+
+/* Position and sizing of clickable cross button */
+:global .bm-cross-button {
+  height: 24px;
+  width: 24px;
+  right: 34px !important;
+}
+
+/* Color/shape of close button cross */
+:global .bm-cross {
+  background: white;
+}
+
+:global .MobileMenu {
+  right: -20px !important;
+  z-index: 1000 !important;
+  top: 0 !important;
+}
+
+/* General sidebar styles */
+:global .bm-menu {
+  font-family: $light-theme-font;
+  background: white;
+  font-size: 1.15em;
+}
+
+/* Wrapper for item list */
+:global .bm-item-list {
+}
+
+/* Individual item */
+:global .bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+:global .bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  top: 0 !important;
+}
+
+.ant-tooltip-content {
+  top: 100px;
+}
+
+.ant-message {
+  z-index: 1100;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: $max-tablet-width) {
+  .DesktopContainer {
+    display: none;
+  }
+  .MobileContainer {
+    display: block;
+    font-size: 10px;
+  }
+  .Logo {
+    margin: 0;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  :global .bm-menu {
+    font-family: $normal-theme-font;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: $min-desktop-width) {
+  .DesktopContainer {
+    display: block;
+  }
+  .MobileContainer {
+    display: none;
+  }
+  .Logo {
+    margin: 18px 0 13px 50px;
+  }
+}

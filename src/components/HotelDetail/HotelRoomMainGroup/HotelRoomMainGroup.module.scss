@@ -1,0 +1,40 @@
+@import './../../../styles/core/colors';
+@import './../../../styles/core/devices';
+
+:export {
+  themePrimaryColor: $theme-primary-color;
+  themeSecondaryColor: $theme-secondary-color;
+  minDesktopWidth: $min-desktop-width;
+  maxTabletWidth: $max-tablet-width;
+}
+
+:global .HotelRoomMainGroupContainer {
+  width: 90%;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global .HotelRoomMainGroupContainer:not(:first-child) {
+  margin-top: 50px;
+}
+
+:global .HotelRoomMainGroupContainer:last-child {
+  margin-bottom: 10% !important;
+}
+
+.Title {
+  font-size: 24px;
+  padding: 10px;
+  border: 1px solid #eee;
+  color: #adacac;
+  background-color: #fcfcfc;
+  margin-bottom: 13px;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: $max-tablet-width) {
+  :global .HotelRoomMainGroupContainer:last-child {
+    margin-bottom: 25% !important;
+  }
+}

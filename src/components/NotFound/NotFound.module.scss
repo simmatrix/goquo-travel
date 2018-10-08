@@ -1,0 +1,31 @@
+@import './../../styles/core/fonts';
+@import './../../styles/core/colors';
+@import './../../styles/core/devices';
+
+:export {
+  condensedBoldThemeFont: $condensed-bold-theme-font;
+  themeFontColor: $theme-font-color;
+  maxTabletWidth: $max-tablet-width;
+}
+
+.NotFoundContainer {
+  margin: 15% auto;
+  width: 50%;
+  border: 1px solid #eee;
+  padding: 50px;
+}
+
+.Title {
+  font-family: $condensed-bold-theme-font;
+  color: $theme-font-color;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: $max-tablet-width) {
+  .NotFoundContainer {
+    margin: 40% auto;
+    width: 100%;
+    border: none;
+    padding: 50px;
+  }
+}

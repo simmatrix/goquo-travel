@@ -1,0 +1,245 @@
+@import './../../styles/core/colors';
+@import './../../styles/core/fonts';
+@import './../../styles/core/devices';
+
+:export {
+  themePrimaryColor: $theme-primary-color;
+  themeSecondaryColor: $theme-secondary-color;
+  boldThemeFont: $bold-theme-font;
+  normalThemeFont: $normal-theme-font;
+  maxTabletWidth: $max-tablet-width;
+}
+
+.HotelDetailContainer {
+  height: 600px;
+}
+
+.SummaryPanel {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 68px;
+  color: white;
+  background-color: $theme-primary-color;
+  font-size: 18px;
+}
+
+.BottomLeftPanel {
+  float: left;
+  padding: 20px;
+  width: 50%;
+}
+
+.BottomRightPanel {
+  float: right;
+  width: 50%;
+}
+
+.MobileDisplayPrice {
+  display: none;
+}
+
+.PriceSummary {
+  float: right;
+  width: 40%;
+  text-align: right;
+  margin: 13px 15px 10px;
+}
+
+.PriceSummaryLabel {
+  font-size: 10px;
+}
+
+.PriceSummaryValue {
+  font-family: $bold-theme-font;
+}
+
+.ConfirmNow {
+  float: right;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  border: none;
+  font-size: 12px;
+  padding: 25px 60px;
+  width: 40%;
+  height: 68px;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ConfirmNow:hover {
+  background-color: rgba(0, 0, 0, 0.685);
+  color: white;
+}
+
+:global .ant-confirm-title {
+  font-family: $bold-theme-font !important;
+}
+
+:global .ant-confirm-content {
+  font-family: $normal-theme-font !important;
+  padding-top: 10px;
+  margin: 0;
+}
+
+:global .ant-confirm-btns {
+  width: 100%;
+}
+
+:global .ant-btn-primary {
+  background-color: #88c3bd !important;
+  border-color: #88c3bd !important;
+  width: 100%;
+  border-radius: 0;
+}
+
+:global .ant-btn-primary:hover {
+  background-color: white !important;
+  color: $theme-font-color !important;
+  border: 1px solid rgb(207, 206, 206) !important;
+}
+
+.HotelGallery {
+  margin-top: 130px;
+  margin-bottom: 25px;
+  height: 50%;
+}
+
+.HotelRoomHeader {
+  height: 100px;
+}
+
+.RatingWrapper {
+  background-color: $theme-secondary-color;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 25px;
+  float: left;
+}
+
+.HotelNameWrapper {
+  float: left;
+  margin-left: 10px;
+}
+
+.HotelReviewPercentage,
+.RatingMobile {
+  background-color: $theme-primary-color;
+  color: white;
+  padding: 3px 10px 3px;
+  width: 225px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.RatingMobile {
+  background-color: $theme-secondary-color;
+  color: white;
+  margin-bottom: 3px;
+  height: 50px;
+  padding: 15px 10px 3px;
+  text-align: center;
+  width: 90%;
+}
+
+.HotelName {
+  font-size: 30px;
+  margin-top: 2px;
+}
+
+.Rating {
+  font-size: 30px;
+  padding: 12px 0 0;
+}
+
+.RatingLabel {
+  font-size: 7px;
+  padding: 5px 0 15px;
+}
+
+.HotelRoomSubHeader {
+  font-size: 30px;
+  margin: 10px 25px 30px;
+  text-align: right;
+}
+
+:global .Typist {
+  display: inline !important;
+}
+
+.HeaderImage {
+  background-image: url('./../../assets/images/hotel/header-image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 100%;
+}
+
+/* Desktop */
+@media only screen and (min-width: $min-desktop-width) {
+  .RatingMobile {
+    display: none;
+  }
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: $max-tablet-width) {
+  .HeaderImage {
+    background-size: cover;
+  }
+
+  .RatingWrapper {
+    margin-bottom: 25px;
+  }
+
+  .HotelNameWrapper {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  .RatingWrapper {
+    display: none;
+  }
+
+  .HotelRoomSubHeader {
+    text-align: left;
+    clear: both;
+    font-size: 24px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+
+  .HotelReviewPercentage {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .BottomLeftPanel {
+    padding-top: 18px;
+    font-size: 11px;
+    width: 73%;
+  }
+
+  .BottomRightPanel {
+    width: 10%;
+  }
+
+  .MobileDisplayPrice {
+    display: block;
+  }
+
+  .ConfirmNow {
+    padding: 18px 80px 10px 30px;
+  }
+
+  .PriceSummary {
+    display: none;
+  }
+}

@@ -1,0 +1,305 @@
+[
+  {
+    "roomTypeLabel": "RUN OF THE HOUSE",
+    "rooms": [
+      {
+        "key": "double-room-only",
+        "bedTypeLabel": ["Double"],
+        "boardCodeDescription": "Room Only",
+        "rooms": [
+          {
+            "name": "Double Room - Economy",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": false,
+            "cancelFreeBeforeDate": false,
+            "isNonRefundable": false,
+            "canHoldBooking": false,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 83.46
+          },
+          {
+            "name": "Double Room",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": false,
+            "cancelFreeBeforeDate": false,
+            "isNonRefundable": false,
+            "canHoldBooking": false,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 90.32
+          },
+          {
+            "name": "Double Room - Sea View",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 07, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "SEA VIEW",
+            "totalPrice": 94.9
+          }
+        ]
+      },
+      {
+        "key": "room-only",
+        "bedTypeLabel": [],
+        "boardCodeDescription": "Room Only",
+        "rooms": [
+          {
+            "name": "Apartment 1 Bedroom",
+            "accommodateText": "APARTMENT",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 12, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 88.8
+          },
+          {
+            "name": "Apartment 2 Bedroom",
+            "accommodateText": "APARTMENT",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 12, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 109.38
+          },
+          {
+            "name": "Apartment 1 Bedroom - Economy",
+            "accommodateText": "APARTMENT",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 12, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 112.43
+          },
+          {
+            "name": "Studio - Economy",
+            "accommodateText": "STUDIO",
+            "hasFreeCancellation": false,
+            "cancelFreeBeforeDate": false,
+            "isNonRefundable": false,
+            "canHoldBooking": false,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 141.77
+          }
+        ]
+      },
+      {
+        "key": "double-twin-room-only",
+        "bedTypeLabel": ["Double", "Twin"],
+        "boardCodeDescription": "Room Only",
+        "rooms": [
+          {
+            "name": "Twin/Double Room - Sea View",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": false,
+            "cancelFreeBeforeDate": false,
+            "isNonRefundable": false,
+            "canHoldBooking": false,
+            "viewLabel": "SEA VIEW",
+            "totalPrice": 140.25
+          },
+          {
+            "name": "Twin/Double Room",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": false,
+            "cancelFreeBeforeDate": false,
+            "isNonRefundable": false,
+            "canHoldBooking": false,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 140.25
+          },
+          {
+            "name": "Twin/Double Room - Budget",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": false,
+            "cancelFreeBeforeDate": false,
+            "isNonRefundable": false,
+            "canHoldBooking": false,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 141.77
+          }
+        ]
+      },
+      {
+        "key": "breakfast",
+        "bedTypeLabel": [],
+        "boardCodeDescription": "Breakfast",
+        "rooms": [
+          {
+            "name": "Apartment 1 Bedroom",
+            "accommodateText": "APARTMENT",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 12, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 150.92
+          },
+          {
+            "name": "Apartment 2 Bedroom",
+            "accommodateText": "APARTMENT",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 12, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 171.5
+          }
+        ]
+      },
+      {
+        "key": "double-all-inclusive",
+        "bedTypeLabel": ["Double"],
+        "boardCodeDescription": "All Inclusive",
+        "rooms": [
+          {
+            "name": "Double Room - Economy",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 07, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 224.47
+          },
+          {
+            "name": "Double Room - Sea View",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 07, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "SEA VIEW",
+            "totalPrice": 231.33
+          },
+          {
+            "name": "Double Room",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 07, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 231.33
+          }
+        ]
+      },
+      {
+        "key": "all-inclusive",
+        "bedTypeLabel": [],
+        "boardCodeDescription": "All Inclusive",
+        "rooms": [
+          {
+            "name": "Apartment 1 Bedroom",
+            "accommodateText": "APARTMENT",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 12, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 254.96
+          },
+          {
+            "name": "Apartment 2 Bedroom",
+            "accommodateText": "APARTMENT",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 12, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 278.97
+          },
+          {
+            "name": "Studio - Economy",
+            "accommodateText": "STUDIO",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 07, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 285.44
+          }
+        ]
+      },
+      {
+        "key": "double-twin-all-inclusive",
+        "bedTypeLabel": ["Double", "Twin"],
+        "boardCodeDescription": "All Inclusive",
+        "rooms": [
+          {
+            "name": "Twin/Double Room",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 07, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 283.54
+          },
+          {
+            "name": "Twin/Double Room - Sea View",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 07, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "SEA VIEW",
+            "totalPrice": 283.54
+          },
+          {
+            "name": "Twin/Double Room - Budget",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": true,
+            "cancelFreeBeforeDate": "SEPTEMBER 07, 2018",
+            "isNonRefundable": false,
+            "canHoldBooking": true,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 285.44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "roomTypeLabel": "SUITE",
+    "rooms": [
+      {
+        "key": "room-only",
+        "bedTypeLabel": [],
+        "boardCodeDescription": "Room Only",
+        "rooms": [
+          {
+            "name": "Suite 1 Bedroom",
+            "accommodateText": "APARTMENT",
+            "hasFreeCancellation": false,
+            "cancelFreeBeforeDate": false,
+            "isNonRefundable": false,
+            "canHoldBooking": false,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 194.36
+          }
+        ]
+      },
+      {
+        "key": "double-room-only",
+        "bedTypeLabel": ["Double"],
+        "boardCodeDescription": "Room Only",
+        "rooms": [
+          {
+            "name": "Suite 2 Bedrooms",
+            "accommodateText": "HOTEL",
+            "hasFreeCancellation": false,
+            "cancelFreeBeforeDate": false,
+            "isNonRefundable": false,
+            "canHoldBooking": false,
+            "viewLabel": "NOT SPECIFIED",
+            "totalPrice": 248.86
+          }
+        ]
+      }
+    ]
+  }
+]

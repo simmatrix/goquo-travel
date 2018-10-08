@@ -1,0 +1,95 @@
+@import './../../../styles/core/colors';
+@import './../../../styles/core/devices';
+
+:export {
+  themePrimaryColor: $theme-primary-color;
+  minDesktopWidth: $min-desktop-width;
+  maxTabletWidth: $max-tablet-width;
+}
+
+.BedTypeLabelWrapper,
+.BoardCodeDescriptionWrapper {
+  font-size: 12px;
+  float: left;
+  width: 30%;
+  margin: 10px 0 25px;
+  cursor: default;
+}
+
+.BoardCodeDescriptionWrapper {
+  width: 40%;
+}
+
+.BedTypeLabelIcon,
+.BoardCodeDescriptionWrapperIcon {
+  margin-top: 5px;
+  float: left;
+}
+
+.SubGroupHeader,
+.RoomList {
+  clear: both;
+}
+
+.BedTypeLabelItem,
+.BoardCodeDescriptionItem {
+  float: left;
+  text-align: center;
+  border: 1px solid #eee;
+  padding: 10px;
+  width: 75px;
+  margin-left: 5px;
+}
+
+.BedTypeLabelItemActive,
+.BoardCodeDescriptionItemActive {
+  float: left;
+  text-align: center;
+  background-color: $theme-primary-color;
+  border: 1px solid $theme-primary-color;
+  color: white;
+  padding: 10px;
+  width: 75px;
+  margin-left: 5px;
+}
+
+.BoardCodeDescriptionItem {
+  width: 130px;
+}
+
+.BoardCodeDescriptionItemActive {
+  width: 130px;
+}
+
+.BedTypeLabel,
+.BoardCodeDescription {
+  padding-left: 45px;
+}
+
+/* Desktop */
+@media only screen and (min-width: $min-desktop-width) {
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: $max-tablet-width) {
+  .BedTypeLabelIcon,
+  .BoardCodeDescriptionWrapperIcon {
+    display: none;
+  }
+
+  .BedTypeLabelWrapper,
+  .BoardCodeDescriptionWrapper {
+    width: 50%;
+  }
+
+  .BedTypeLabel,
+  .BoardCodeDescription,
+  .BoardCodeDescriptionItemActive,
+  .BoardCodeDescriptionItem,
+  .BedTypeLabelItemActive,
+  .BedTypeLabelItem {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,135 @@
+@import './../../styles/core/colors';
+@import './../../styles/core/devices';
+@import './../../styles/core/fonts';
+
+:export {
+  themeTertiaryColor: $theme-tertiary-color;
+  themeSecondaryColor: $theme-secondary-color;
+  maxTabletWidth: $max-tablet-width;
+  minDesktopWidth: $min-desktop-width;
+  boldThemeFont: $bold-theme-font;
+}
+
+.ActionBarDesktopContainer {
+  background-color: $theme-tertiary-color;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 3px 5px #eee;
+  position: fixed;
+  top: 68px;
+}
+
+.ActionBarMobileContainer {
+  background-color: $theme-tertiary-color;
+  width: 100%;
+  height: 89px;
+  box-shadow: 0px 3px 5px #eee;
+  position: fixed;
+  top: 68px;
+  z-index: 800;
+}
+
+.ItemLocationSelector,
+.ItemDateSelector,
+.ItemOccupantSelector,
+.ItemSearchButton {
+  float: left;
+}
+
+.ItemLocationSelector {
+  width: 25%;
+  cursor: text;
+}
+
+.ItemDateSelector {
+  width: 18%;
+  cursor: pointer;
+}
+
+.ItemOccupantSelector {
+  width: 24%;
+  cursor: pointer;
+}
+
+.ItemSearchButton {
+  background-color: $theme-secondary-color;
+  width: 15%;
+  cursor: pointer;
+  padding: 20px;
+  height: 100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+}
+
+.ItemTopWrapperMobile,
+.ItemBottomWrapperMobile {
+  clear: both;
+  display: block;
+}
+
+.ItemBottomWrapperMobile {
+  padding-top: 10px;
+}
+
+.ItemLocationSelectorMobile,
+.ItemRoomSelectorMobile {
+  width: 50%;
+  background-color: #eee;
+}
+
+.ItemLocationSelectorMobile {
+  padding: 10px 10px 10px 25px;
+  float: left;
+}
+
+.ItemRoomSelectorMobile {
+  padding: 10px 10px 10px 25px;
+  float: right;
+  border-left: 1px solid white;
+}
+
+.ItemDateSelectorMobileRight,
+.ItemDateSelectorMobileLeft {
+  font-size: 10px;
+}
+
+.ItemDateSelectorMobileLeft {
+  margin-left: 6%;
+  float: left;
+}
+
+.ItemDateSelectorMobileRight {
+  margin-right: 6%;
+  float: right;
+}
+
+.ItemDateSelectorMobileIcon {
+  float: left;
+}
+
+.ItemDateSelectorMobileInputWrapper {
+  float: left;
+  margin-left: 10px;
+}
+
+.ItemDateSelectorMobileDate {
+  font-family: $bold-theme-font;
+}
+
+.ItemDateSelectorMobileDayName {
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: $max-tablet-width) {
+  .ActionBarDesktopContainer {
+    display: none;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: $min-desktop-width) {
+  .ActionBarMobileContainer {
+    display: none;
+  }
+}

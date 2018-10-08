@@ -1,0 +1,56 @@
+@import './../../styles/core/fonts';
+@import './../../styles/core/colors';
+@import './../../styles/core/devices';
+
+:export {
+  condensedBoldThemeFont: $condensed-bold-theme-font;
+  themePrimaryColor: $theme-primary-color;
+  themeSecondaryColor: $theme-secondary-color;
+  themeTertiaryColor: $theme-tertiary-color;
+  themeFontColor: $theme-font-color;
+  maxTabletWidth: $max-tablet-width;
+  minDesktopWidth: $min-desktop-width;
+}
+
+.HomeContainer {
+  margin: 15% auto;
+  width: 50%;
+  border: 1px solid #eee;
+  padding: 50px;
+}
+
+.Title {
+  font-family: $condensed-bold-theme-font;
+  color: $theme-font-color;
+}
+
+.ViewNow {
+  background-color: $theme-primary-color;
+  color: white;
+  border: none;
+  font-size: 10px;
+  padding: 20px 40px;
+  width: 100%;
+  margin-top: 15px;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ViewNow:hover {
+  background-color: white;
+  color: $theme-font-color;
+  border: 1px solid rgb(207, 206, 206);
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: $max-tablet-width) {
+  .HomeContainer {
+    margin: 40% auto;
+    width: 100%;
+    border: none;
+    padding: 50px;
+  }
+}

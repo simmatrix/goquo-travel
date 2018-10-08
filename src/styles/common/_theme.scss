@@ -1,0 +1,19 @@
+html,
+body {
+  font-family: $light-theme-font;
+  color: $theme-font-color;
+  letter-spacing: 1px;
+}
+
+.icon-color {
+  color: $icon-color;
+  font-size: 25px;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: $max-tablet-width) {
+  html,
+  body {
+    font-family: $normal-theme-font;
+  }
+}

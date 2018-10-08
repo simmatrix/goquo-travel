@@ -1,0 +1,25 @@
+@import './../../../styles/core/fonts';
+
+:export {
+  boldThemeFont: $bold-theme-font;
+}
+
+.DateSelectorContainer {
+  padding: 14px 20px;
+  height: 60px;
+}
+
+.Icon {
+  float: left;
+  margin-top: 5px;
+}
+
+.Input {
+  float: left;
+  margin: 0 0 0 20px;
+  font-size: 11px;
+}
+
+.SelectedDate {
+  font-family: $bold-theme-font;
+}
