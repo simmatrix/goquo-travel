@@ -9,7 +9,7 @@
 
 ## Demo
 
-https://simmatrix.github.io/goquo-travel-booking-platform
+http://simmatrix.github.io/goquo-travel
 
 ## Contact
 
