@@ -5,7 +5,7 @@ import HotelDetailPage from './components/HotelDetail/HotelDetail';
 import NotFoundPage from './components/NotFound/NotFound';
 
 const routes = (
-  <BrowserRouter>
+  <BrowserRouter basename="/goquo-travel">
     <Switch>
       <Route path="/" component={HomePage} exact />
       <Route path="/hotel/:id" component={HotelDetailPage} />
