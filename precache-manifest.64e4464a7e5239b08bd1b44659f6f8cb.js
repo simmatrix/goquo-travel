@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/goquo-travel/static/media/HelveticaNeueUltraLightItal.885e502f.woff"
   },
   {
-    "revision": "4fb18e5aadf96b108cac",
+    "revision": "fb1602a3a3db6efe6c33",
     "url": "/goquo-travel/static/css/main.e71f797f.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/goquo-travel/static/media/HelveticaNeueUltraLight.dba6692a.woff"
   },
   {
-    "revision": "4fb18e5aadf96b108cac",
-    "url": "/goquo-travel/static/js/main.4fb18e5a.chunk.js"
+    "revision": "fb1602a3a3db6efe6c33",
+    "url": "/goquo-travel/static/js/main.fb1602a3.chunk.js"
   },
   {
     "revision": "61bce9764944398be6d90a27fabc9c58",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/goquo-travel/static/css/1.8ca5bdb1.chunk.css"
   },
   {
-    "revision": "c923e09dad14828c1b43dee81bfcb280",
+    "revision": "8e8a6d390292d453ac6a73b2a7a14faf",
     "url": "/goquo-travel/index.html"
   }
 ];

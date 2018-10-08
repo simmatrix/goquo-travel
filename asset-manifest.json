@@ -1,7 +1,7 @@
 {
   "main.css": "/goquo-travel/static/css/main.e71f797f.chunk.css",
-  "main.js": "/goquo-travel/static/js/main.4fb18e5a.chunk.js",
-  "main.js.map": "/goquo-travel/static/js/main.4fb18e5a.chunk.js.map",
+  "main.js": "/goquo-travel/static/js/main.fb1602a3.chunk.js",
+  "main.js.map": "/goquo-travel/static/js/main.fb1602a3.chunk.js.map",
   "static/css/1.8ca5bdb1.chunk.css": "/goquo-travel/static/css/1.8ca5bdb1.chunk.css",
   "static/js/1.4a9e97f0.chunk.js": "/goquo-travel/static/js/1.4a9e97f0.chunk.js",
   "static/js/1.4a9e97f0.chunk.js.map": "/goquo-travel/static/js/1.4a9e97f0.chunk.js.map",
@@ -14,6 +14,6 @@
   "static/css/main.e71f797f.chunk.css.map": "/goquo-travel/static/css/main.e71f797f.chunk.css.map",
   "static/css/1.8ca5bdb1.chunk.css.map": "/goquo-travel/static/css/1.8ca5bdb1.chunk.css.map",
   "index.html": "/goquo-travel/index.html",
-  "precache-manifest.828af0f81470b6276eb8a978e406faed.js": "/goquo-travel/precache-manifest.828af0f81470b6276eb8a978e406faed.js",
+  "precache-manifest.64e4464a7e5239b08bd1b44659f6f8cb.js": "/goquo-travel/precache-manifest.64e4464a7e5239b08bd1b44659f6f8cb.js",
   "service-worker.js": "/goquo-travel/service-worker.js"
 }
