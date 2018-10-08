@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/goquo-travel/precache-manifest.a06c99452bf8a1591106862febf1e665.js"
+  "/goquo-travel/precache-manifest.828af0f81470b6276eb8a978e406faed.js"
 );
 
 workbox.clientsClaim();

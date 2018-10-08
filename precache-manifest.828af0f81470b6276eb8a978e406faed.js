@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "dba6692a9a2caea7a16522cbf1968b91",
-    "url": "/goquo-travel/static/media/HelveticaNeueUltraLight.dba6692a.woff"
+    "revision": "885e502feacfe7a2244b3f1fc232456e",
+    "url": "/goquo-travel/static/media/HelveticaNeueUltraLightItal.885e502f.woff"
   },
   {
     "revision": "4fb18e5aadf96b108cac",
@@ -28,16 +28,20 @@ self.__precacheManifest = [
     "url": "/goquo-travel/static/media/header-background.fc15767a.jpg"
   },
   {
-    "revision": "885e502feacfe7a2244b3f1fc232456e",
-    "url": "/goquo-travel/static/media/HelveticaNeueUltraLightItal.885e502f.woff"
-  },
-  {
     "revision": "912504a26e60acf7cf14b96eab5cca93",
     "url": "/goquo-travel/static/media/HelveticaNeueItalic.912504a2.woff"
   },
   {
+    "revision": "dba6692a9a2caea7a16522cbf1968b91",
+    "url": "/goquo-travel/static/media/HelveticaNeueUltraLight.dba6692a.woff"
+  },
+  {
     "revision": "4fb18e5aadf96b108cac",
     "url": "/goquo-travel/static/js/main.4fb18e5a.chunk.js"
+  },
+  {
+    "revision": "61bce9764944398be6d90a27fabc9c58",
+    "url": "/goquo-travel/static/media/HelveticaNeueLight.61bce976.woff"
   },
   {
     "revision": "da0396e9e5b99bb4f38cdbd3ac4f8691",
@@ -48,16 +52,12 @@ self.__precacheManifest = [
     "url": "/goquo-travel/static/media/HelveticaNeueBold.9a0b29b6.woff"
   },
   {
-    "revision": "61bce9764944398be6d90a27fabc9c58",
-    "url": "/goquo-travel/static/media/HelveticaNeueLight.61bce976.woff"
+    "revision": "789669526b13f9ec76eb437ac346269a",
+    "url": "/goquo-travel/static/media/HelveticaNeueBoldItalic.78966952.woff"
   },
   {
     "revision": "9b62599c2a012d8d204f503dd75a58b1",
     "url": "/goquo-travel/static/media/HelveticaNeueCondensedBold.9b62599c.woff"
-  },
-  {
-    "revision": "789669526b13f9ec76eb437ac346269a",
-    "url": "/goquo-travel/static/media/HelveticaNeueBoldItalic.78966952.woff"
   },
   {
     "revision": "e79d51f81604eba0e771138aee67c53a",
