@@ -7,6 +7,10 @@
 - Install dependencies by running `yarn install`
 - Run the site via `yarn start`
 
+## Demo
+
+https://simmatrix.github.io/goquo-travel-booking-platform
+
 ## Contact
 
 Vince Wong :: simmatrix100@gmail.com
